@@ -10,6 +10,6 @@ class PageController extends Controller
 {
     public function index(){
         $lista_film = Movie::all();
-        return view ('welcome', compact('lista_film'));
+        return view ('listaFilm', compact('lista_film'));
     }
 }
